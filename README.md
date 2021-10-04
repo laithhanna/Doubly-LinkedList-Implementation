@@ -3,15 +3,17 @@ Hello guys, I have implemented doubly LinkedList with sentinel nodes with great 
 
 .................................................................................................................................................................................
 
-Why I posted this?
+Notes:
+- I will refer to Doubly LinkedList as DLL
+- The DLL was implemented using sentinel nodes to make the logic of insertion and deletion easier and less error prone
+- The DLL will hold integer values
+- All the explanations on what the methods do and how they work is documented in the source code
 
-I know it is hard to find a good implementation filled with good documentation on this topic. Hence, I made this so you can refer to it to deepen your understanding.
-
-Note: I will refer to Doubly LinkedList as DLL and all the documentation for what the methods do and how they work is documented in the source code
 
 .................................................................................................................................................................................
 
-Methods supported for the DLL class:
+Methods supported by the Doubly LinkedList:
+```
 
 int getSize()
 
@@ -34,10 +36,4 @@ Integer first()
 Integer last()
 
 void printList()
-
-.................................................................................................................................................................................
-
-Have a wonderful day,
-
-Best regards.
-
+```
